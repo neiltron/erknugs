@@ -16,7 +16,7 @@ hook.on('hook::ready', function(){
     data = querystring.parse(data.body)
     data = JSON.parse(data.payload);
 
-    hook.say({"to":"#dev", "msg": "[github] " + data.repository.name + " (" + data.ref + ") has been updated to " + data.after})
+    hook.say({"to":"#dev", "msg": "[github] " + data.pusher.name + ' pushed to ' + data.repository.name + " (" + data.ref + "). sha: " + data.after})
   })
 });
 
