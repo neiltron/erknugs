@@ -9,11 +9,9 @@ var webhookServer = new Webhook({
 
 webhookServer.on('hook::ready', function () {
   webhookServer.on('webhook::request', function (data) {
-    console.log(data)
     if (data.url == '/github') {
       webhookServer.emit('github_response',data)
     }
-    console.log(querystring.parse(data.body));
   })
 })
 
