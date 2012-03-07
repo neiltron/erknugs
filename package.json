@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "hook.io-webhook": "0.8.1",
-    "hook.io-irc": "0.6.0"
+    "hook.io-irc": "0.6.0",
+    "hook.io": "0.8.7-1"
   },
   "devDependencies": {}
 }
