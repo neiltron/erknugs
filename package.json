@@ -1,0 +1,19 @@
+{
+  "author": "Neil Pullman <neil@descend.org> (http://descend.org)",
+  "name": "erknugs",
+  "description": "Webhook-ingesting IRC bot. Stupidly basic. You shouldn't use this, probably.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/neiltron/erknugs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neiltron/erknugs.git"
+  },
+  "engines": {
+    "node": "~0.6.7"
+  },
+  "dependencies": {
+    "hook.io-webhook": "0.8.1",
+    "hook.io-irc": "0.6.0"
+  },
+  "devDependencies": {}
+}
