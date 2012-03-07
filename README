@@ -1,0 +1,7 @@
+A webhook-ingesting IRC bot for commit and deploy notifications.
+
+To use, change your config information in config.json and run:
+
+git clone git@github.com:neiltron/erknugs.git
+cd erknugs
+node bin/erknugs
