@@ -1,8 +1,8 @@
 {
-  "irc-server": "lunch.worklabs.com",
+  "irc-server": "your.network.com",
   "port": 6667,
   "nick": "erknugs",
-  "channels": ["#dev"],
+  "channels": ["#your-channel"],
   "showErrors": "true",
   "userName": "erknuggets",
   "realName": "ERK!"
