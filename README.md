@@ -1,6 +1,8 @@
+***This is no longer maintained***. I took my own advice and started using hubot instead.
+
 Erknugs is an irc bot for announcing development-related events to your team's irc channel.
 
-It implements an irc client and a webhook server. The webhook server currently listens for commit messages from Github, deploy notifications from Heroku, and exceptions from Exceptional. Adding new hooks/services is really simple.
+It implements an irc client and a webhook server. The webhook server currently listens for commit messages from Github, deploy notifications from Heroku, and exceptions from Exceptional and Sentry.
 
 # Usage
 
